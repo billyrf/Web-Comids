@@ -10,12 +10,16 @@ import { GridModule } from './app-shell/register/grid.module';
 import { BlankModule } from './app-shell/homePage/blank.module';
 import { NavBarComponent } from './app-shell/nav-bar/nav-bar.component';
 import { FooterComponent } from './app-shell/footer/footer.component';
+import { HomeIndexComponent } from './app-shell/homeIndex/home-index/home-index.component';
+import { HomeIndexRoutingPipe } from './app-shell/homeIndex/home-index/home-index-routing.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeIndexComponent,
+    HomeIndexRoutingPipe
   ],
   imports: [
     BrowserModule,
