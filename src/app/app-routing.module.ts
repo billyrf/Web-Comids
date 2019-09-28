@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'listPlace',
     loadChildren: () => import('./app-shell/listPlace/list.module').then(mod => mod.ListModule)
   },
+  {
+    path: 'listItem',
+    loadChildren: () => import('./app-shell/listItem/master-detail.module').then(mod => mod.MasterDetailModule)
+  },
 ];
 
 @NgModule({
