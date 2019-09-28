@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'list',
-    loadChildren: () => import('./app-shell/list/list.module').then(mod => mod.ListModule)
+    loadChildren: () => import('./app-shell/listPlace/list.module').then(mod => mod.ListModule)
   },
   {
     path: 'master-detail',

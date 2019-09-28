@@ -1,11 +1,9 @@
-﻿import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ListComponent } from './list.component';
-import { ListFormComponent } from './list-form/list-form.component';
-import { ListItemComponent } from './list-item/list-item.component';
 import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
 
 describe('ListComponent', () => {
@@ -16,8 +14,6 @@ describe('ListComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         ListComponent,
-        ListFormComponent,
-        ListItemComponent
       ],
       imports: [
         WarningMessageModule,
