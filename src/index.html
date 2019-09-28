@@ -7,10 +7,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <app-root></app-root>
   <!--
   This HTML file is a template.
   If you open it directly in the browser, you will see an empty page.
@@ -21,5 +21,46 @@
   To begin the development, run `npm start` or `yarn start`.
   To create a production bundle, use `npm run build` or `yarn build`.
   -->
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+             <img src="https://www.freelogodesign.org/file/app/client/thumb/aaf80d72-e869-4fdd-a5ba-1863159a71f7_200x200.png?1569553704256" width="100" height="60"/> 
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <form action="/autentificar" method="post">
+        <div class="jumbotron" id="formulario">
+
+            <div class="txt">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="user" name="user" type="text" value="" class="validate">
+                        <label class="active" for="titulo">User</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <input id="password" name="password" type="password" value=""
+                               class="validate">
+                        <label class="active" for="pwd">Password</label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default center" id="Login">Login</button>
+            <button type="submit" class="btn btn-default center" id="Cadastro">Cadastro</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
