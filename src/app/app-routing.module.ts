@@ -2,7 +2,7 @@
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/homePage', pathMatch: 'full' },
+  { path: '',   redirectTo: '/blank', pathMatch: 'full' },
   {
     path: 'blank',
     loadChildren: () => import('./app-shell/homePage/blank.module').then(mod => mod.BlankModule)
