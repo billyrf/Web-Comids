@@ -2,10 +2,10 @@
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/blank', pathMatch: 'full' },
+  { path: '',   redirectTo: '/homePage', pathMatch: 'full' },
   {
     path: 'blank',
-    loadChildren: () => import('./app-shell/blank/blank.module').then(mod => mod.BlankModule)
+    loadChildren: () => import('./app-shell/homePage/blank.module').then(mod => mod.BlankModule)
   },
   {
     path: 'grid',
