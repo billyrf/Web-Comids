@@ -1,0 +1,4 @@
+flask
+janusgraphy
+flask-restful
+pyjwt
