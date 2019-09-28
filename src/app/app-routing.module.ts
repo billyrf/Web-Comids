@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'listItem',
     loadChildren: () => import('./app-shell/listItem/master-detail.module').then(mod => mod.MasterDetailModule)
   },
+  {
+    path: 'homeIndex',
+    loadChildren: () => import('./app-shell/homeindex/home-index.module').then(mod => mod.HomeIndexModule)
+  },
 ];
 
 @NgModule({

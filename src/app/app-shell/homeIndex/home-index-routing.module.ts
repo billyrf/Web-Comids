@@ -1,12 +1,17 @@
-import { Pipe, PipeTransform } from '@angular/core';
+﻿import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
-@Pipe({
-  name: 'homeIndexRouting'
-})
-export class HomeIndexRoutingPipe implements PipeTransform {
+import { HomeIndexComponent } from './home-index.component';
 
-  transform(value: any, args?: any): any {
-    return null;
+const routes: Routes = [
+  {
+    path: '',
+    component: HomeIndexComponent
   }
+];
 
-}
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class MasterDetailRoutingModule { }
