@@ -12,12 +12,8 @@ const routes: Routes = [
     loadChildren: () => import('./app-shell/register/grid.module').then(mod => mod.GridModule)
   },
   {
-    path: 'list',
+    path: 'listPlace',
     loadChildren: () => import('./app-shell/listPlace/list.module').then(mod => mod.ListModule)
-  },
-  {
-    path: 'master-detail',
-    loadChildren: () => import('./app-shell/master-detail/master-detail.module').then(mod => mod.MasterDetailModule)
   },
 ];
 
