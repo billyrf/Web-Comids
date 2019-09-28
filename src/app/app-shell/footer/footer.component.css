@@ -1,19 +1,57 @@
-.footer {
-  background-color: #000000;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-}
-  
-.title {
-  color: #fff;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+a:hover{
+	text-decoration: none;
+	color:#000;
 }
 
-.description {
-  color: #fff;
+.item_wrapper{
+	background-color: rgb(255, 255, 255);
+	padding:15px;
+	margin-bottom:50px;
+	box-shadow: 1px 1px px rgb(3, 3, 3);
 }
 
-.footerlink,
-.footerlink:hover {
-  color: #fff;
+.navbar{
+	background:rgb(22, 0, 0);
 }
-  
+
+.item_id{
+	color: #FF7C26;
+	display: block;
+}
+
+.item_nome{
+	color:#000;
+	font-size:22px;
+	text-decoration: none;
+}
+
+.item_data{
+	color:#727272;
+	display: block;
+}
+.item_preco {
+	color:#000;
+	font-size:16px;
+	text-decoration: none;
+}
+
+.item_descricao{
+	color:#333;
+	margin-right:10px;
+}
+
+.ver_mais{
+	text-align: center;
+	background:#FFF;
+	padding:20px;
+}
