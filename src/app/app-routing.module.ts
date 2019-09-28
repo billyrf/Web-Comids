@@ -2,13 +2,13 @@
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/blank', pathMatch: 'full' },
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
   {
-    path: 'blank',
+    path: 'home',
     loadChildren: () => import('./app-shell/homePage/blank.module').then(mod => mod.BlankModule)
   },
   {
-    path: 'grid',
+    path: 'register',
     loadChildren: () => import('./app-shell/register/grid.module').then(mod => mod.GridModule)
   },
   {
