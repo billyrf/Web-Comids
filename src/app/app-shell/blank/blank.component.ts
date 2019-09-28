@@ -3,7 +3,7 @@
 @Component({
   selector: 'app-blank',
   templateUrl: './blank.component.html',
-  styleUrls: ['./blank.component.css']
+  styleUrls: ['./blank.component.css','./blank.materialize.min.css']
 })
 export class BlankComponent implements OnInit {
 
