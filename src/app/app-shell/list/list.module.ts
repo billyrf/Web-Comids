@@ -10,7 +10,6 @@ import { WarningMessageModule } from '../../shared/warning-message/warning-messa
 @NgModule({
   declarations: [
     ListComponent,
-
   ],
   imports: [
     CommonModule,
