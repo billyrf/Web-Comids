@@ -1,7 +1,5 @@
 ﻿import { Component, OnInit } from '@angular/core';
 
-import { MasterDetailService, IMasterDetailText } from './master-detail.service';
-
 @Component({
   selector: 'app-master-detail',
   templateUrl: './master-detail.component.html',
@@ -13,20 +11,12 @@ export class MasterDetailComponent implements OnInit {
   WarningMessageText = 'Request to get master detail text failed:';
   WarningMessageOpen = false;
   currentDisplayTabIndex = 0;
-  masterDetailText: IMasterDetailText[] = [];
 
-  constructor(private masterDetailService: MasterDetailService) { }
+
+  constructor() { }
 
   ngOnInit() {
-    this.masterDetailService.getMasterDetailItems().subscribe(
-      result => {
-        this.masterDetailText = result;
-      },
-      error => {
-        this.WarningMessageOpen = true;
-        this.WarningMessageText = `Request to get master detail text failed: ${error}`;
-      }
-    );
+    
   }
 
   handleDisplayTabClick(id: number) {

@@ -1,6 +1,4 @@
-﻿import { Component, OnInit, Input } from '@angular/core';
-import { IMasterDetailText } from '../master-detail.service';
-
+import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-master-detail-page',
   templateUrl: './master-detail-page.component.html',
