@@ -2,7 +2,6 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { GridComponent } from './grid.component';
-import { GridBoxComponent } from './grid-box/grid-box.component';
 import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
 
 describe('GridComponent', () => {
@@ -13,7 +12,6 @@ describe('GridComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         GridComponent,
-        GridBoxComponent
       ],
       imports: [
         WarningMessageModule,

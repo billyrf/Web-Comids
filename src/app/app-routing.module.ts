@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'grid',
-    loadChildren: () => import('./app-shell/grid/grid.module').then(mod => mod.GridModule)
+    loadChildren: () => import('./app-shell/register/grid.module').then(mod => mod.GridModule)
   },
   {
     path: 'list',
