@@ -21,7 +21,7 @@ const routes: Routes = [
   },
   {
     path: 'homeIndex',
-    loadChildren: () => import('./app-shell/homeindex/home-index.module').then(mod => mod.HomeIndexModule)
+    loadChildren: () => import('./app-shell/homeIndex/home-index.module').then(mod => mod.HomeIndexModule)
   },
 ];
 

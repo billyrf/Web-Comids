@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class MasterDetailRoutingModule { }
+export class HomeIndexRoutingModule { }
