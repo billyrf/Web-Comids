@@ -33,7 +33,7 @@ const routes: Routes = [
   },
    {
     path: 'footer',
-    loadChildren: () => import('./app-shell/footer/footer.module').then(e => alert("E-mail cadastrado com sucesso") )
+    loadChildren: () => import('./app-shell/footer/footer.module').then(e => alert("E-mail cadastrado com sucesso"))
   },
 
 ];
