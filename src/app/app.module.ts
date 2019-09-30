@@ -19,7 +19,6 @@ import { HomeIndexComponent } from './app-shell/homeIndex/home-index.component';
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    
   ],
   imports: [
     BrowserModule,

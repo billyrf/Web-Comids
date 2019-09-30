@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'homeIndex',
     loadChildren: () => import('./app-shell/homeIndex/home-index.module').then(mod => mod.HomeIndexModule)
   },
+  {
+    path: 'food',
+    loadChildren: () => import('./app-shell/food/food.module').then(mod => mod.FoodModule)
+  },
 
 ];
 
