@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'purchased',
     loadChildren: () => import('./app-shell/purchasedItem/purchased.module').then(mod => mod.PurchasedModule)
   },
+   {
+    path: 'join',
+    loadChildren: () => import('./app-shell/footer/footer.module').then(mod => mod.PurchasedModule)
+  },
 
 ];
 
