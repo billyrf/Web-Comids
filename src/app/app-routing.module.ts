@@ -1,4 +1,4 @@
-﻿import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: 'listItem',
-    loadChildren: () => import('./app-shell/listItem/master-detail.module').then(mod => mod.MasterDetailModule)
+    loadChildren: () => import('./app-shell/listItemCantina/master-detail.module').then(mod => mod.MasterDetailModule)
   },
   {
     path: 'homeIndex',
