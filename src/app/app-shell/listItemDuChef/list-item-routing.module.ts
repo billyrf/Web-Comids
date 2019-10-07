@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { listItemComponent } from './listItem.component';
+import { ListItemComponent } from './list-Item.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: listItemComponent
+    component: ListItemComponent
   }
 ];
 
