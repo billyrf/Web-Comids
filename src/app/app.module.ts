@@ -21,8 +21,7 @@ import { ListItemComponent } from './app-shell/listItemDuChef/list-item.componen
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    ListItemComponent,
-    
+ 
   ],
   imports: [
     BrowserModule,
