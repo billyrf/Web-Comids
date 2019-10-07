@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
-import { ListItemComponent } from './list-Item.component';
+import { ListItemComponent } from './list-item.component';
 
 import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
 

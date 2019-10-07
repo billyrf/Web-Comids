@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListItemComponent } from './list-Item.component';
+
+import { ListItemComponent } from './list-item.component';
+import { ListItemRoutingModule } from './list-item-routing.module';
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    ListItemRoutingModule
   ],
   declarations: [ListItemComponent]
 })
