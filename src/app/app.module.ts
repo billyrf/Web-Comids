@@ -20,8 +20,7 @@ import { ListItemComponent } from './app-shell/listItemDuChef/list-item.componen
   declarations: [
     AppComponent,
     NavBarComponent,
-    FooterComponent,
- 
+    FooterComponent, 
   ],
   imports: [
     BrowserModule,
