@@ -5,7 +5,6 @@ import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ListComponent } from './list.component';
 import { ListRoutingModule } from './list-routing.module';
-import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { WarningMessageModule } from '../../shared/warning-message/warning-messa
     FormsModule,
     ReactiveFormsModule,
     NgbAlertModule,
-    WarningMessageModule,
     ListRoutingModule
   ]
 })

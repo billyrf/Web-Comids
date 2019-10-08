@@ -3,8 +3,6 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { ListItemComponent } from './list-item.component';
 
-import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
-
 describe('MasterDetailComponent', () => {
   let component: ListItemComponent;
   let fixture: ComponentFixture<ListItemComponent>;
@@ -15,7 +13,6 @@ describe('MasterDetailComponent', () => {
         ListItemComponent,
       ],
       imports: [
-        WarningMessageModule,
         HttpClientTestingModule
       ]
     }).compileComponents();

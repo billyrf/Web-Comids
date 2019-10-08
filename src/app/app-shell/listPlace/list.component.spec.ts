@@ -4,7 +4,6 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ListComponent } from './list.component';
-import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
 
 describe('ListComponent', () => {
   let component: ListComponent;
@@ -16,7 +15,6 @@ describe('ListComponent', () => {
         ListComponent,
       ],
       imports: [
-        WarningMessageModule,
         FormsModule,
         ReactiveFormsModule,
         HttpClientTestingModule,

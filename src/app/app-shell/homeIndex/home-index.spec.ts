@@ -3,8 +3,6 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { HomeIndexComponent } from './home-index.component';
 
-import { WarningMessageModule } from '../../shared/warning-message/warning-message.module';
-
 describe('HomeIndexComponent', () => {
   let component: HomeIndexComponent;
   let fixture: ComponentFixture<HomeIndexComponent>;
@@ -15,7 +13,6 @@ describe('HomeIndexComponent', () => {
         HomeIndexComponent,
       ],
       imports: [
-        WarningMessageModule,
         HttpClientTestingModule
       ]
     }).compileComponents();
